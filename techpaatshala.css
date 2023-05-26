@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+font-family: 'Plus Jakarta Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+    position: relative;
+    padding: 0 4rem;
+    height: 90px;
+
+}
+
+.logo {
+    display: inline-block;
+    margin-top: 26px;
+    padding: 0 3.5rem;
+}
+
+.logo img {
+    float: left;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar-ulist {
+    padding: 0 23rem;
+}
+
+.navbar-list {
+    display: inline-block;
+    margin-top: 33px;
+    padding: 0 25px;
+
+}
+
+.btn {
+    position: absolute;
+    top: 33px;
+    right: 14rem;
+
+}
+.btn{
+    
+}
