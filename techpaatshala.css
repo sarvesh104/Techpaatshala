@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@500&family=Roboto:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@300;500&family=Roboto:wght@300;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+font-family: 'Plus Jakarta Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+    position: relative;
+    padding: 0 4rem;
+    height: 90px;
+
+}
+
+.logo {
+    display: inline-block;
+    margin-top: 26px;
+    padding: 0 3.5rem;
+}
+
+.logo img {
+    float: left;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar-ulist {
+    padding: 0 23rem;
+}
+
+.navbar-list {
+    display: inline-block;
+    margin-top: 33px;
+    padding: 0 25px;
+
+}
+
+.btn {
+    position: absolute;
+    top: 33px;
+    right: 14rem;
+
+}
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 90px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.firstsection>div {
+    width: 50%;
+}
+
+.rightsection{
+    width: 80%;
+    margin-bottom: 28%;
+    margin-top: 10px;
+
+}
+
+.leftsection {
+    font-size: 2.5rem;
+    margin-bottom: 30% ;
+}
+.rightsection h2{
+    font-size: 3rem;
+    color: black;
+    display: block;
+    margin-top: -20%;
+}
+p{
+    font-size: 20px;
+}
+.button-sec{
+    display: inline-flex;
+}
+.leftbutton1{
+    width: 50%;
+    float: left;
+    margin-right:15px;
+
+}
+.rightbutton1{
+    width: 50%;
+    float: right;
+}
+.firstbutton{
+    width: 250px;
+    border-radius: 15px;
+    height: 35px;
+    background-color: white;
+    border-width: thin;
+    display: flex;
+    align-items: center
+}
+
+.button-icon-left{
+    padding: 0 6px 0 10px;    
+    }
+    .button-icon-left svg{
+        width: 18px;    
+    }
+    .button-icon-right1{
+        padding: 0 6px 0 0px;    
+    }
+    .button-icon-right1 svg{
+        width: 18px;
+        }
+    .secondbutton{
+        width: 205px;
+        border-radius: 15px;
+        height: 35px;
+        background-color: white;
+        border-width: thin;
+        display: flex;
+        margin: 0 0 0 10px;
+        align-items: center;
+        justify-content: center;
+        }
+    .button-text{
+        font-size: 16px;
+       
+    }
+    /* second buttons sections */
+
+    .leftbutton2{
+        width: 40%;
+        float: left;
+        margin-right:15px;
+    
+    }
+    .rightbutton2{
+        width: 50%;
+        float: right;}
+        .thirdbutton{
+            width: 160px;
+            border-radius: 15px;
+            height: 35px;
+            background-color: white;
+            margin-top: 10px;
+            border-width: thin;
+            display: flex;
+            align-items: center
+        }
+        .fourthbutton{
+            width: 250px;
+            border-radius: 15px;
+            height: 35px;
+            background-color: white;
+            margin-top: 7px;
+            border-width: thin;
+            display: flex;
+            align-items: center;
+            margin-left: -33%;
+            justify-content: center;
+        }
+            .buttonsec3{
+                width: 50%;
+            }
+            .fifthbutton{
+                width: 250px;
+                border-radius: 15px;
+                height: 35px;
+                background-color: white;
+                border-width: thin;
+                display: flex;
+                align-items: center
+            }
+
+
+
+
