@@ -53,7 +53,7 @@ font-family: 'Roboto', sans-serif;
 .firstsection {
     display: flex;
     justify-content: space-around;
-    margin: 10px 90px;
+    margin: 10px 90px -20%;
     align-items: center;
     box-sizing: border-box;
 }
@@ -177,7 +177,33 @@ p{
                 display: flex;
                 align-items: center
             }
+.secondsection{
+    
+display: flex;
+margin: 10px 90px 2%;
 
+}
+.secondsection div{
+    align-items: center;
+    margin: 20px;
+    width: 100%;
+}
+.secondsection .sec2-left{
+    width: 75%
+}
+.midimg{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+.thirdsection{
+    display: flex;
 
-
+}
+.thirdsection div{
+    align-items: center;
+    margin: 20px;
+    width: 100%;
+}
 
