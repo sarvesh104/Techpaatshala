@@ -4,10 +4,11 @@
 }
 
 body {
-    font-family: 'Alegreya Sans', sans-serif;
+    /* font-family: 'Alegreya Sans', sans-serif;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+    font-family: 'Plus Jakarta Sans', sans-serif ;
     height: 1000px;
 }
 
