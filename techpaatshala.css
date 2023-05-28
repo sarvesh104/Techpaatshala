@@ -1,26 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@500&family=Roboto:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@300;500&family=Roboto:wght@300;500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: 'Alegreya Sans', sans-serif;
-font-family: 'Plus Jakarta Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
+    /* font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    height: 1000px;
 }
 
 .menu {
-    position: relative;
+    position: sticky;
+    top: 0;
+    background-color: white;
     padding: 0 4rem;
     height: 90px;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 0px 0px 7px 0px;
+    border-color: #ECEDF2;
+
+    padding: 5px 0px 5px 0px;
 
 }
 
 .logo {
     display: inline-block;
     margin-top: 26px;
-    padding: 0 3.5rem;
+    padding: 0 4rem;
 }
 
 .logo img {
@@ -28,26 +41,402 @@ font-family: 'Roboto', sans-serif;
 }
 
 .navbar {
+
     float: right;
+    margin-right: 45px;
+    font-weight: 400;
 }
 
-.navbar-ulist {
-    padding: 0 23rem;
-}
+
 
 .navbar-list {
     display: inline-block;
-    margin-top: 33px;
-    padding: 0 25px;
+    margin-top: 35px;
+    padding: 0 18px;
 
 }
 
-.btn {
-    position: absolute;
-    top: 33px;
-    right: 14rem;
+.navbar-list:hover {
+    color: #2B7DDD;
+    ;
+}
+
+.navbar-btn {
+    margin-right: 23px;
+    margin-left: 90px;
+    padding: 17px 49px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    background-color: #2B7DDD;
+    font-weight: bold;
 
 }
-.btn{
-    
+
+.navbar-btn a {
+    text-decoration: none;
+    color: white;
 }
+
+.navbar-btn:hover {
+    background-color: blue;
+}
+
+.main {
+
+    margin-top: 80px;
+    padding: 0 7rem 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.main-heading {
+    width: 35%;
+    padding: 0 35px;
+}
+
+.main-h1 {
+    font-size: 58px;
+    font-weight: 500;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 66px;
+}
+
+.main-span {
+    color: #2b7ddd;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 66px;
+}
+
+.main-para {
+    margin-top: 32px;
+    color: #4F547B;
+    line-height: 1.8;
+    font-size: 17px;
+
+}
+
+.main-btn {
+    color: #2B7DDD;
+    margin-top: 30px;
+    padding: 16px 32px;
+    border-radius: 10px;
+    border: 1px solid #2B7DDD;
+    font-size: 17px;
+    background-color: white;
+}
+
+.main-img {
+    margin-right: 90px;
+
+}
+
+#btn {
+    position: fixed;
+    bottom: 10px;
+    right: 0rem;
+    color: white;
+    background-color: #25B43B;
+    padding: 9px 15px;
+    border: none;
+    padding-bottom: 20px;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 90px -20%;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.firstsection>div {
+    width: 50%;
+}
+
+.rightsection {
+    width: 80%;
+    margin-bottom: 28%;
+    margin-top: 10px;
+    padding-left: 18px;
+
+}
+
+.leftsection {
+    font-size: 2.5rem;
+    margin-bottom: 30%;
+}
+
+.rightsection h2 {
+    font-size: 3rem;
+    color: black;
+    display: block;
+    margin-top: -20%;
+}
+
+p {
+    font-size: 16px;
+}
+
+.button-sec {
+    display: inline-flex;
+}
+
+.leftbutton1 {
+    width: 50%;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.rightbutton1 {
+    width: 50%;
+    float: right;
+}
+
+.firstbutton {
+    width: 250px;
+    border-radius: 15px;
+    height: 35px;
+    background-color: white;
+    border-width: thin;
+    display: flex;
+    align-items: center
+}
+
+.button-icon-left {
+    padding: 0 6px 0 10px;
+}
+
+.button-icon-left svg {
+    width: 18px;
+}
+
+.button-icon-right1 {
+    padding: 0 6px 0 0px;
+}
+
+.button-icon-right1 svg {
+    width: 18px;
+}
+
+.secondbutton {
+    width: 205px;
+    border-radius: 15px;
+    height: 35px;
+    background-color: white;
+    border-width: thin;
+    display: flex;
+    margin: 0 0 0 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-text {
+    font-size: 16px;
+
+}
+
+/* second buttons sections */
+
+.leftbutton2 {
+    width: 40%;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.rightbutton2 {
+    width: 50%;
+    float: right;
+}
+
+.thirdbutton {
+    width: 160px;
+    border-radius: 15px;
+    height: 35px;
+    background-color: white;
+    margin-top: 10px;
+    border-width: thin;
+    display: flex;
+    align-items: center
+}
+
+.fourthbutton {
+    width: 250px;
+    border-radius: 15px;
+    height: 35px;
+    background-color: white;
+    margin-top: 7px;
+    border-width: thin;
+    display: flex;
+    align-items: center;
+    margin-left: -33%;
+    justify-content: center;
+}
+
+.buttonsec3 {
+    width: 50%;
+}
+
+.fifthbutton {
+    width: 250px;
+    border-radius: 15px;
+    height: 35px;
+    background-color: white;
+    border-width: thin;
+    display: flex;
+    align-items: center
+}
+
+.secondsection {
+
+    display: flex;
+    margin: 10px 90px 2%;
+
+}
+
+.secondsection div {
+    align-items: center;
+    margin: 20px;
+    width: 100%;
+}
+
+.secondsection .sec2-left {
+    width: 75%
+}
+
+.midimg {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.thirdsection {
+    width: 100%;
+    display: flex;
+    padding-top: 35px;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.thirdsection div {
+    align-items: center;
+    margin: 22px 9px 50px 0px
+}
+
+.bluepanel-title {
+    color: #FFFFFF;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 53px;
+}
+
+.title-h3 {
+    margin-top: 22px;
+}
+
+.midimg2 {
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec3-title-h3 {
+    color: #FFFFFF;
+}
+
+/* section 4 and section 5 css starts from here */
+
+.main1 {
+    width: 100%
+}
+
+.sec4right {
+    width: 500px;
+    height: 500px;
+    float: left;
+    justify-content: center;
+    display: flex;
+
+}
+
+.sec4left {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    float: right;
+    margin: 20px;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    margin: 29px;
+}
+
+footer {
+    top: 10;
+    bottom: 0;
+    left: 0;
+}
+
+input {
+    width: 81%;
+    height: 45px;
+}
+
+.foot {
+    height: 10px;
+    width: 100%;
+}
+
+.section4 {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 90px -20%;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.section4 div {
+    width: 50%;
+}
+
+.sec4-request-button {
+    width: 40%;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 16px 32px;
+    margin: 0;
+    background-color: #2B7DDD;
+    color: #fff;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+    border: 0;
+
+}
+
+/* section 4 and section 5 css ends here!!! */
