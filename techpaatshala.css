@@ -198,12 +198,33 @@ margin: 10px 90px 2%;
     font-family: 'Poppins', sans-serif;
 }
 .thirdsection{
+    width: 100%;
     display: flex;
+    padding-top: 35px;
+    align-content: center;
+    justify-content: center;
 
 }
 .thirdsection div{
-    align-items: center;
-    margin: 20px;
-    width: 100%;
+    align-items: center;    
+    margin: 22px 9px 50px 0px
+  
 }
-
+.bluepanel-title{
+    color: #FFFFFF;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 53px;
+}
+.title-h3{
+    margin-top: 22px;
+}
+.midimg2{
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+.sec3-title-h3{
+    color: #FFFFFF;
+}
