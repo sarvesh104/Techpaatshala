@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../csslearning"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Techpaatshala"
+	}
+}
