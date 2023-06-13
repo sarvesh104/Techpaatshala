@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+
+.header {
+    height: 60px;
+    background-color: rgb(236, 240, 230);
+    
+}
+
+.container {
+    padding: 0 5rem;
+}
+
+.menu {
+    line-height: 2.9;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.intro {
+    
+    float: left;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.menu ul li a:hover {
+    color: red;
+}
+
+.main {
+    display: inline-block;
+    margin-top: 100px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.main img {
+    margin-left: 50px;
+}
+
+.content {
+    float: left;
+}
+
+.content h4,h1,p {
+    padding-bottom: 20px;
+    font-weight: bold;
+    
+    
+}
+
+.main2 {
+    display: inline-block;
+    margin-top: 100px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.content2 {
+    float: right;
+    margin-left: 50px;
+}
+
+.content2 h4,h1,p {
+    padding-bottom: 20px;
+    font-weight: bold;
+    
+}
+
+
+
+.services {
+    margin-top: 90px;
+    text-align: center;
+}
+.services h1,p{
+    font-weight: bold;
+}
